@@ -1,6 +1,6 @@
 body{
     font-family: 'Open Sans Condensed', sans-serif;
-    padding: 0 60px 20px;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -10,3 +10,9 @@ a{
 *{
     box-sizing: border-box;
 }
+ @media screen and (min-width: 750px){
+     body{
+        padding: 0 60px 20px;
+
+     }
+ }
