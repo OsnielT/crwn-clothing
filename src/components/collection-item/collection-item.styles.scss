@@ -1,10 +1,10 @@
 .collection-item {
-    // width: 22%;
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    align-items: center;
-    position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  position: relative;
+
     .image {
       transition: all .3s ease-in-out;
       width: 100%;
@@ -48,5 +48,8 @@
         width: 10%;
       }
     }
+  }
+  .preview .collection-item {
+    width: 22%;
   }
   
